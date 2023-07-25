@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   font-family: sans-serif, 'Poppins';
+   
+}
+body{
+    background-color: lightgray;
+}
+/* configurações do card principal */
+.cardprincipal{
+    background-color: white;
+    width: 70vh;
+    height: 80vh;
+    text-align: center;
+    border-radius: 10px ;
+    position: relative;
+    right: -60vh;
+    top: 30px;
+    padding-top: 20px;
+}
+.cardprincipal p
+{
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.cardprincipal h1{
+   font-size: 25px;
+   margin-top: 10px;
+   
+}
+/* FIM */
+
+#cardquadradoazul, #QRcode{
+    border-radius: 10px;
+
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
